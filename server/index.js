@@ -1,5 +1,5 @@
 //import express framework
-const express = require ('express');
+const express = require('express');
 const path = require('path');
 
 //set PORT# to listen on
