@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nickchandler/movie-list/issues"
   },
-  "homepage": "https://github.com/nickchandler/movie-list#readme"
+  "homepage": "https://github.com/nickchandler/movie-list#readme",
+  "dependencies": {
+    "react": "^16.10.0"
+  }
 }
