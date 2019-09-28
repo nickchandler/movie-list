@@ -16,7 +16,18 @@
     "url": "https://github.com/nickchandler/movie-list/issues"
   },
   "homepage": "https://github.com/nickchandler/movie-list#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  },
   "dependencies": {
-    "react": "^16.10.0"
+    "express": "^4.15.0",
+    "mysql": "^2.16.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sqlite3": "^4.0.6"
   }
 }
