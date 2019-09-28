@@ -13,8 +13,14 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        Hello World
-      </div>
+        <p>Hello World</p>
+        <ul>
+          {this.props.data.map((movie) => {
+            return <li>{movie.title}</li>
+          })}
+          </ul>
+        </div>
+
     )
   }
 }

@@ -9639,7 +9639,22 @@ var App = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         null,
-        'Hello World'
+        _react2.default.createElement(
+          'p',
+          null,
+          'Hello World'
+        ),
+        _react2.default.createElement(
+          'ul',
+          null,
+          this.props.data.map(function (movie) {
+            return _react2.default.createElement(
+              'li',
+              null,
+              movie.title
+            );
+          })
+        )
       );
     }
   }]);
@@ -9680,7 +9695,9 @@ var _App2 = _interopRequireDefault(_App);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('app'));
+var movies = [{ title: 'Mean Girls' }, { title: 'Hackers' }, { title: 'The Grey' }, { title: 'Sunshine' }, { title: 'Ex Machina' }];
+
+_reactDom2.default.render(_react2.default.createElement(_App2.default, { data: movies }), document.getElementById('app'));
 
 /***/ }),
 /* 85 */
